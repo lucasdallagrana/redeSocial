@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", () => {
    
     //localiza o contador
 
-    let textNode = Array.from(likeBtn.childNodes).find(node) =>
+    let textNode = Array.from(likeBtn.childNodes).find(node) => node.nodeType
 }
