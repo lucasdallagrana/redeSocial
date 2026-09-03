@@ -32,4 +32,14 @@ likeSvg.style.transform = "scale(1.3)";
 setTimeout (() => (likeSvg.style.transform = "scal(1)")150);
 
 
+//para numero acima e 1000
+
+function formatLikes(num){
+    if(num >=1000)[
+        return (num/1000).toFixed(1)+"k";
+    ]
+}
+
+
+
 }
